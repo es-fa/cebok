@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.facebook img{
+    height: 18px;
+    width: 80px;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    margin: 25px;
+    /*background: rgb(233, 233, 233);*/
+}
+.cajas input{
+    height: 30px;
+    width: 325px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(233, 233, 233);
+}
+.entrar input{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 325px;
+    margin: 5px;
+    color: white;
+    background: rgb(5, 22, 255);
+}
+.olvido{
+    margin: 10px 70px;
+}
+.olvido a{
+    text-decoration: none;
+    color: rgb(5, 22, 255);
+}
+.linea hr{
+    width: 146px;
+    display: inline-block;
+    margin: 3px 8px;
+}
+.cuenta{
+    margin: 10px 92px;
+}
+.cuenta input{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    
+    color: white;
+    background: rgb(7, 199, 55);
+}
+.idiomas{
+    display: flex;
+}
+.espanol{
+    margin: 30px 35px;
+}
+.ingles{
+    margin: 30px 34px;
+}
+.espanol p{
+    text-align: center;
+    color: rgb(89, 20, 168);
+}
+.espanol .s{
+    color: rgb(124, 122, 122);
+}
+.ingles p{
+    text-align: center;
+    color: rgb(89, 20, 168);;
+}
+.ingles input{
+    border-radius: 5px;
+    border-color: rgb(89, 20, 168);
+    margin: 5px 50px;
+    height: 20px;
+    width: 20px;
+}
+.info{
+    display: flex;
+    margin: 10px 120px;
+}
+.info p{
+    font-size: 10px;
+    margin: 5px;
+    color: rgb(124, 122, 122);
+}
+.meta{
+    margin: 10px;
+    text-align: center;
+}
+.meta p{
+    font-size: 14px;
+    color: rgb(124, 122, 122);
+}
